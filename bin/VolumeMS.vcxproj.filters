@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Init">
+      <UniqueIdentifier>{c2a0ed97-fb32-488a-a561-eecdb8436cde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{b4582fa6-7dc9-4761-933f-b04fa6f9ff78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{f268c55c-9aec-41fc-894a-f699b24d6784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Header Files">
+      <UniqueIdentifier>{ff47da05-a6dd-465e-af17-7c8328dcc55e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Source Files">
+      <UniqueIdentifier>{911beadc-00cd-4da8-94fa-607f38678c47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Header Files">
+      <UniqueIdentifier>{81b40d43-5b6a-4b97-b8d0-ba25de4b646a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Source Files">
+      <UniqueIdentifier>{a31427c6-07f4-4cec-a01d-2b0594841c4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transformation">
+      <UniqueIdentifier>{123d8d69-f300-4e3f-91f2-b42dea477f6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transformation\Header Files">
+      <UniqueIdentifier>{7d608a5f-6faa-4070-a7a2-e3bab465ea94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transformation\Source Files">
+      <UniqueIdentifier>{d603de14-03de-42a9-b4e5-d0c8a18b46f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render Colleagues">
+      <UniqueIdentifier>{2e2618e8-0f78-493d-8657-d09d12785cc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render Colleagues\Header Files">
+      <UniqueIdentifier>{73688137-b80f-4e78-9bb9-36be43804b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render Colleagues\Source Files">
+      <UniqueIdentifier>{91b74b93-1053-455f-9486-f9945974b9f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light">
+      <UniqueIdentifier>{59cbdf57-b9e0-4ac7-9090-7fc5f52340b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light\Header Files">
+      <UniqueIdentifier>{6be73b57-e3ef-41c4-bfc8-c60c98270617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light\Source Files">
+      <UniqueIdentifier>{a8b17419-f935-442e-80d1-dcf5b83d34dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\headers\Main.h">
+      <Filter>Init</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\headers\ConcreteRenderController.h">
+      <Filter>Render\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\headers\RenderFacade.h">
+      <Filter>Render\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\headers\RenderInterface.h">
+      <Filter>Render\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\headers\Model.h">
+      <Filter>Model\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\headers\Reader.h">
+      <Filter>Model\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\headers\Camera.h">
+      <Filter>Transformation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\headers\Projection.h">
+      <Filter>Transformation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\headers\Transformation.h">
+      <Filter>Transformation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\headers\Texture.h">
+      <Filter>Model\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\headers\CGLSLProgram.h">
+      <Filter>Render\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\headers\GUI.h">
+      <Filter>Render Colleagues\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\headers\SideBar.h">
+      <Filter>Render Colleagues\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\headers\Stage.h">
+      <Filter>Render Colleagues\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\headers\Light.h">
+      <Filter>Light\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\headers\Routes.h">
+      <Filter>Model\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\headers\TransferFunction.h">
+      <Filter>Model\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\headers\ControlPoint.h">
+      <Filter>Model\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\cpp\Main.cpp">
+      <Filter>Init</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cpp\ConcreteRenderController.cpp">
+      <Filter>Render\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cpp\RenderFacade.cpp">
+      <Filter>Render\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cpp\RenderInterface.cpp">
+      <Filter>Render\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cpp\Model.cpp">
+      <Filter>Model\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cpp\Reader.cpp">
+      <Filter>Model\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cpp\Camera.cpp">
+      <Filter>Transformation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cpp\Projection.cpp">
+      <Filter>Transformation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cpp\Transformation.cpp">
+      <Filter>Transformation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cpp\Texture.cpp">
+      <Filter>Model\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cpp\CGLSLProgram.cpp">
+      <Filter>Render\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cpp\GUI.cpp">
+      <Filter>Render Colleagues\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cpp\SideBar.cpp">
+      <Filter>Render Colleagues\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cpp\Stage.cpp">
+      <Filter>Render Colleagues\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cpp\Light.cpp">
+      <Filter>Light\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cpp\Routes.cpp">
+      <Filter>Model\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cpp\TransferFunction.cpp">
+      <Filter>Model\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cpp\ControlPoint.cpp">
+      <Filter>Model\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
